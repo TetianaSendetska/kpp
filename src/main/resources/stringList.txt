@@ -1,0 +1,12 @@
+Violin,3675.00,String,Bow,4
+Violin,5285.00,String,Bow,4
+Cello,25055.00,String,Bow,4
+Cello,19676.00,String,Bow,4
+Bass,75276.00,String,Bow,4
+Bass,52468.00,String,Bow,4
+Guitar,4799.00,String,Plucked,6
+Guitar,5699.00,String,Plucked,6
+Guitar,4899.00,String,Plucked,6
+Harp,146950.00,String,Plucked,38
+Harp,106530.00,String,Plucked,34
+Kobza,92684.00,String,Plucked,11

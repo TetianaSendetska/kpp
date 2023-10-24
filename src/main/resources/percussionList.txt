@@ -1,0 +1,14 @@
+Drum,462.00,Percussion,8
+Drum,2634.00,Percussion,12
+Drum,6426.00,Percussion,10
+Drum,7253.00,Percussion,13
+Drum,29964.00,Percussion,22
+Drum,5721.00,Percussion,12
+Plate,535.00,Percussion,10
+Plate,825.00,Percussion,8
+Plate,1641.00,Percussion,14
+Plate,1005.00,Percussion,10
+Frame drum,495.00,Percussion,8
+Frame drum,6641.00,Percussion,16
+Frame drum,1003.00,Percussion,8
+

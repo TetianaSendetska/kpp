@@ -1,0 +1,9 @@
+Flute,4725.00,Wind,Woodwind,38
+Flute,5946.00,Wind,Woodwind,39
+Flute,11180.00,Wind,Woodwind,30
+Clarinet,14580.00,Wind,Woodwind,70
+Clarinet,24013.00,Wind,Woodwind,60
+Saxophone,17510.00,Wind,Brass,63
+Saxophone,26511.00,Wind,Brass,63
+Tube,6797.00,Wind,Brass,52
+Tube,8001.00,Wind,Brass,55
