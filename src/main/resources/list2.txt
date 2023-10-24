@@ -1,0 +1,14 @@
+Mitchell,IT Specialist,2022-03-15
+Clark,Financial Director,2010-11-15
+Davis,Human Resources Coordinator,2022-03-15
+Taylor,Human Resources Coordinator,2022-03-15
+Evans,Research Analyst,2021-11-10
+Anderson,Research Analyst,2023-04-22
+Walker,Sales Representative,2022-03-15
+Turner,Research Analyst,2010-11-15
+Allen,Chief Engineer,2020-09-05
+Black,Sales Representative,2020-09-05
+Green,Operations Supervisor,2010-11-15
+Wright,General Manager,2012-04-22
+Styles,Research Analyst,2012-04-22
+Carter,Financial Director,2021-11-10

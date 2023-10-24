@@ -1,0 +1,13 @@
+Smith,General Manager,2022-03-15
+Johnson,Financial Director,2021-11-10
+Williams,Marketing Department Manager,2012-04-22
+Brown,Chief Engineer,2020-09-05
+Davis,Human Resources Coordinator,2022-03-15
+Miller,Sales Representative,2012-04-22
+Wilson,IT Specialist,2021-11-10
+Jones,Operations Supervisor,2022-03-15
+Anderson,Research Analyst,2023-04-22
+Martin,Customer Service Manager,2022-03-15
+Black,Sales Representative,2020-09-05
+White,Human Resources Coordinator,2021-11-10
+Styles,Research Analyst,2012-04-22
