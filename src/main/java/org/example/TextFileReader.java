@@ -21,7 +21,7 @@ public class TextFileReader {
             while ((line = bufferedReader.readLine()) != null) {
                 currentSentence.append(line);
 
-                if (line.endsWith(".")) {
+                if (line.endsWith(".")|| line.endsWith("?") || line.endsWith("!")) {
                     sentences.add(currentSentence.toString());
                     currentSentence.setLength(0);  // Очищаємо рядок для наступного речення
                 }

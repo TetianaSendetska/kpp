@@ -2,6 +2,7 @@ package org.example;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.*;
 
 public class App {
 
@@ -29,8 +30,11 @@ public class App {
         }
 
         System.out.println(text.size());
-        ListPrinter.printList(text);
+        //ListPrinter.printList(text);
 
+
+        RegularExpressionController rbcontroller = new RegularExpressionController();
+        ListPrinter.printList(rbcontroller.findQuestions(text));
     }
 }
 
