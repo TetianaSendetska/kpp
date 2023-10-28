@@ -8,30 +8,29 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TextFileReader {
-    public static List<String> readTextFromFile(String filePath)
-    {
+    public static List<String> readTextFromFile(String filePath) throws Exception {
         List<String> sentences = new ArrayList<>();
         StringBuilder currentSentence = new StringBuilder();
 
         try {
             File file = new File(filePath);
             BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
-
-            String line;
+            String line = null;
             while ((line = bufferedReader.readLine()) != null) {
                 currentSentence.append(line);
-
                 if (line.endsWith(".")|| line.endsWith("?") || line.endsWith("!")) {
                     sentences.add(currentSentence.toString());
                     currentSentence.setLength(0);  // Очищаємо рядок для наступного речення
                 }
             }
-
             bufferedReader.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
 
+        if(sentences.isEmpty()) {
+            throw new Exception("The file is empty");
+        }
         return sentences;
     }
 }

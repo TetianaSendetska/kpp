@@ -15,4 +15,20 @@ public class RegularExpressionController {
         }
         return questions;
     }
+    public List<String> findWordsOfCertainLength(List<String> sentences, int length ){
+        if(sentences.isEmpty()){
+            throw new IllegalArgumentException("There are no text");
+        }
+        List<String> text = findQuestions(sentences);
+        List<String> words = new ArrayList<>();
+        String regex = "\\b\\w{" + length + "}\\b";
+        Pattern pattern = Pattern.compile(regex);
+        for (String sentence: text) {
+            Matcher matcher = pattern.matcher(sentence);
+            while(matcher.find()){
+                words.add(matcher.group());
+            }
+        }
+        return words;
+    }
 }
